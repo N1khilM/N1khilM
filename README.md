@@ -15,6 +15,7 @@ MCA graduate (2024) building full-stack web apps with React, Next.js, Node and D
 | Project | What it is | Built with |
 | --- | --- | --- |
 | [Portfolio](https://nikhilmugali-portfolio.vercel.app) | Personal portfolio, deployed on Vercel | Next.js, React |
+| [PizzaNee](https://pizza-nee.vercel.app/) | Pizza Ordering website| MERN Stack |
 | [MarketSquare](http://marketsquare.pythonanywhere.com/) | Marketplace Ecommerce Website| Python, Django |
 | [Expense Tracker](https://expense-tracker-pro-full.vercel.app/) | Expense Tracker Website | MERN Stack |
 
