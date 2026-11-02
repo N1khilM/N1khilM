@@ -15,8 +15,8 @@ MCA graduate (2024) building full-stack web apps with React, Next.js, Node and D
 | Project | What it is | Built with |
 | --- | --- | --- |
 | [Portfolio](https://nikhilmugali-portfolio.vercel.app) | Personal portfolio, deployed on Vercel | Next.js, React |
-| [MarketSquare](http://marketsquare.pythonanywhere.com/) | Python, Django |
-| [Expense Tracker](https://expense-tracker-pro-full.vercel.app/) | MERN Stack |
+| [MarketSquare](http://marketsquare.pythonanywhere.com/) | | Python, Django |
+| [Expense Tracker](https://expense-tracker-pro-full.vercel.app/) | | MERN Stack |
 
 <!-- Add repo links to the rows above once the repositories are public. -->
 
