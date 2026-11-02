@@ -15,16 +15,10 @@ MCA graduate (2024) building full-stack web apps with React, Next.js, Node and D
 | Project | What it is | Built with |
 | --- | --- | --- |
 | [Portfolio](https://nikhilmugali-portfolio.vercel.app) | Personal portfolio, deployed on Vercel | Next.js, React |
-| Duty roster generator | Browser-based shift roster generator with scheduling algorithms; runs fully client-side | React |
-| Lyric video | Motion-designed 9:16 lyric video, rendered from code | Remotion |
+| MarketSquare | Python, Django |
+| Expense Tracker | MERN Stack |
 
 <!-- Add repo links to the rows above once the repositories are public. -->
-
-## Contributions
-
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg?v=1" alt="3D view of my GitHub contributions" width="100%">
-</p>
 
 ## Contact
 
