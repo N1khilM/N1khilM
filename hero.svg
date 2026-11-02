@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280" role="img" aria-labelledby="t d">
+  <title id="t">Nikhil Mugali</title>
+  <desc id="d">Nikhil Mugali, full-stack developer in Bengaluru, open to SDE1 and full-stack roles. Works with React, Next.js, TypeScript, Node, Express, Django, MongoDB and PostgreSQL.</desc>
+  <style>
+    .sans { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .rise { animation: rise 0.9s cubic-bezier(0.23, 1, 0.32, 1) both; }
+    .d1 { animation-delay: 0.05s; }
+    .d2 { animation-delay: 0.2s; }
+    .d3 { animation-delay: 0.35s; }
+    .d4 { animation-delay: 0.5s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .rise { animation: none; } }
+  </style>
+  <defs>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#333333"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.4" stop-color="#000"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <mask id="m"><rect width="900" height="280" fill="url(#fade)"/></mask>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="899" height="279" rx="16" fill="#0a0a0a" stroke="#262626"/>
+  <rect x="1" y="1" width="898" height="278" rx="15" fill="url(#dots)" mask="url(#m)"/>
+
+  <g class="rise d1">
+    <rect x="40.5" y="36.5" width="292" height="30" rx="15" fill="none" stroke="#2a2a2a"/>
+    <circle cx="58" cy="51.5" r="4" fill="#c8792c">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="72" y="56" class="sans" font-size="13" fill="#b8b8b8">Open to SDE1 and full-stack roles</text>
+  </g>
+
+  <text x="40" y="142" class="sans rise d2" font-size="58" font-weight="600" letter-spacing="-1.6" fill="#f2f2f2">Nikhil Mugali</text>
+
+  <text x="42" y="176" class="mono rise d3" font-size="16"><tspan fill="#9a9a9a">@N</tspan><tspan fill="#c8792c">1</tspan><tspan fill="#9a9a9a">khilM</tspan></text>
+
+  <g class="rise d4">
+    <rect x="40" y="200" width="3" height="24" fill="#c8792c">
+      <animate attributeName="opacity" values="1;0" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/>
+    </rect>
+    <g class="sans" font-size="22" fill="#e6e6e6">
+      <text x="56" y="219" opacity="1">Full-stack developer
+        <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.23;0.25;0.98;1" dur="16s" repeatCount="indefinite"/>
+      </text>
+      <text x="56" y="219" opacity="0">React, Next.js and TypeScript up front
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.27;0.48;0.5;1" dur="16s" repeatCount="indefinite"/>
+      </text>
+      <text x="56" y="219" opacity="0">Node, Express and Django behind it
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.52;0.73;0.75;1" dur="16s" repeatCount="indefinite"/>
+      </text>
+      <text x="56" y="219" opacity="0">MongoDB and PostgreSQL underneath
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.75;0.77;0.98;1" dur="16s" repeatCount="indefinite"/>
+      </text>
+    </g>
+  </g>
+
+  <text x="40" y="258" class="mono rise d4" font-size="13" fill="#9a9a9a">Bengaluru, India  /  MCA 2024  /  nikhilmugali-portfolio.vercel.app</text>
+</svg>
